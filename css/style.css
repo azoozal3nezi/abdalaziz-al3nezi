@@ -1,0 +1,48 @@
+p{
+    text-align: right;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+
+.header-content img{
+max-width:1000px;
+
+}
+ul {
+    list-style: none;
+ 
+  }
+  
+
+.header-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 11000px;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+  
+   
+  }
+  .navbar nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+  
+  }
+  .navbar nav ul a{
+    margin:0 15px;
+    font-weight: 600;
+    
+    }
+   
+    .navbar {
+  background-color:#60c3e3;
+  border-bottom: 1px solid #cccccc; 
+  position: fixed;
+  width:100%;
+  padding: 1.5rem 2rem ;
+
+}
